@@ -4,8 +4,10 @@
 
 **Developed by:**
 
-- `Developer Name 1` *Mark Angel Concina*
-- `Developer Name 2` *Kenneth Flororita*
+- *Mark Angel Concina*
+- *Kenneth Flororita*
+
+LIVE LINK: https://parsuwise.onrender.com
 
 WISE enables administrators to manage users and courses, faculty members to design and deliver structured learning content, and students to discover courses, learn at their own pace, take quizzes, collaborate through course forums, and earn verifiable certificates upon completion.
 
