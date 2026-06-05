@@ -102,8 +102,12 @@ app.use('/api', strictRateLimit("5m", 10), guestRoutes);
 app.post("/api/_ping", (req, res) => res.json({ ok: true }));
 
 //testing endpoint: 
-app.get("/healthz", (req, res) => {
-  res.json({ ok: true, time: new Date().toISOString() });
+app.get("/health", (req, res) => {
+  res.status(200).json({
+    status: "OK",
+    uptime: process.uptime(),
+    timestamp: new Date()
+  });
 });
 
 console.log("ARCJET envs:", {
